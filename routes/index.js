@@ -17,6 +17,7 @@ const {
   hashCompare,
   createToken,
   decodeToken,
+  decodePasswordToken,
 } = require("../config/auth");
 
 //frontend url

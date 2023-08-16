@@ -33,9 +33,16 @@ const decodeToken = (token) => {
   return data;
 };
 
+//decode forgot password token
+const decodePasswordToken = (token) => {
+  let data = jwt.decode(token);
+  return data;
+};
+
 module.exports = {
   hashPassword,
   hashCompare,
   createToken,
   decodeToken,
+  decodePasswordToken,
 };
