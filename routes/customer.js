@@ -20,7 +20,7 @@ const {
 } = require("../config/auth");
 
 //frontend url
-let url = "http://localhost:3000";
+let url = "https://spontaneous-beignet-4ad464.netlify.app";
 
 //to connect to db
 mongoose.connect(dbUrl);
